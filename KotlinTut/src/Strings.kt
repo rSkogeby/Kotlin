@@ -31,4 +31,11 @@ fun main(args: Array<String>) {
     val subsequence = str4.subSequence(4,13)
     println(subsequence)
 
+    val luke = "Luke Skywalker"
+    val lightsabercolor = "green"
+    val vehicle = "landspeeder"
+
+    println("$luke has a $lightsabercolor lightsaber and drives a $vehicle")
+    println("Lukes full name $luke has ${luke.length} characters")
+
 }
