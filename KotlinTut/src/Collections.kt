@@ -1,0 +1,28 @@
+fun main(args: Array<String>) {
+    val imperials = listOf("Emperor","DarthVader","Boba Fett","Tarkin")
+    println(imperials)
+    println(imperials.sorted())
+    println(imperials[2])
+    println(imperials.last())
+    println(imperials.contains("Luke"))
+
+        val rebels = arrayListOf("Leiah","Luke","Han Solo","Mon Mothma")
+    println(rebels.size)
+    rebels.add("Chewbacca")
+    rebels.add(0,"Lando")
+    println(rebels)
+    println(rebels.indexOf("Luke"))
+    rebels.remove("Han Solo")
+    println(rebels)
+    val RebelVechilesMap = mapOf("Solo" to "Millenium falcon","Luke" to "Landspeeder")
+    println(RebelVechilesMap["Solo"])
+    println(RebelVechilesMap.getOrDefault("solo",defaultValue = "This one is not there"))
+    println(RebelVechilesMap.values)
+    val rebelVehicles = hashMapOf("Solo" to "Millenium Falcon", "Luke" to "LandSpeeder", "Boba Fett" to "Yo Mama")
+    rebelVehicles["Luke"] = "XWing"
+    rebelVehicles.put("Leiah","Tentative IV")
+    rebelVehicles.remove("Boba Fett")
+    println(rebelVehicles)
+    println(rebelVehicles.isEmpty())
+    println(rebelVehicles)
+}

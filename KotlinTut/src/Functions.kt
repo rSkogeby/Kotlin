@@ -4,4 +4,20 @@ fun main(args: Array<String>) {
     }
 
     forceChoke()
+
+    fun makeAnEntrance(line: String) {
+        println(line)
+    }
+    makeAnEntrance("I find your lack of faith disturbing.")
+
+    fun calculateNumberGoodGuys(rebels: Int, ewoks: Int): Int {
+        return rebels+ewoks
+    }
+    println("Darth Vader faced off against: ${calculateNumberGoodGuys(5,6)} rebel scum")
+    fun vaderIsFeeling(mood: String = "angry") {
+        println(mood)
+    }
+
+    vaderIsFeeling()
+    vaderIsFeeling("meh")
 }
